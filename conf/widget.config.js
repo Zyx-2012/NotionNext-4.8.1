@@ -49,7 +49,7 @@ module.exports = {
             url: 'https://music.163.com/song/media/outer/url?id=1353010122.mp3',
             cover:
                 'https://wx3.sinaimg.cn/orj480/007d3rwnly1hqesuxvzyoj30dc0hq0ty.jpg',
-            lrc: '/lrc/lrc2.lrc'
+            // lrc: 'lrc/lrc2.lrc'
         },
         {
             name: 'are you OK',
@@ -57,7 +57,7 @@ module.exports = {
             url: 'https://music.163.com/song/media/outer/url?id=31814005.mp3',
             cover:
                 'https://s21.ax1x.com/2025/01/09/pEC3g10.png',
-            lrc: '/lrc/lrc3.lrc'
+            lrc: 'lrc/lrc3.lrc'
         }
     ],
     MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
