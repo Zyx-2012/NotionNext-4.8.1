@@ -48,16 +48,14 @@ module.exports = {
             artist: 'Alan Walker',
             url: 'https://music.163.com/song/media/outer/url?id=1353010122.mp3',
             cover:
-                'https://wx3.sinaimg.cn/orj480/007d3rwnly1hqesuxvzyoj30dc0hq0ty.jpg',
-            // lrc: 'lrc/lrc2.lrc'
+                'https://gimg0.baidu.com/gimg/src=https%3A%2F%2Fgdown.baidu.com%2Fappcenter%2Fsource%2F1396538632%2Ff5334df2e4a2f867eb43bc39c77bfa74%2Fres%2Fdrawable-xhdpi-v4%2Ficon.png&app=2000&size=f260,260&n=0&g=0n&q=85&fmt=jpeg?sec=0&t=0146ab1589977e17f939e10bd7279c72'
         },
         {
             name: 'are you OK',
             artist: '雷军',
             url: 'https://music.163.com/song/media/outer/url?id=31814005.mp3',
             cover:
-                'https://s21.ax1x.com/2025/01/09/pEC3g10.png',
-            lrc: './lrc/lrc3.lrc'
+                'https://s21.ax1x.com/2025/01/09/pEC3g10.png'
         }
     ],
     MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
