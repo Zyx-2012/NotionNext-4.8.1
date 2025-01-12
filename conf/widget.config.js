@@ -56,6 +56,13 @@ module.exports = {
             url: 'https://music.163.com/song/media/outer/url?id=31814005.mp3',
             cover:
                 'https://s21.ax1x.com/2025/01/09/pEC3g10.png'
+        },
+        {
+            name: '天堂岛之歌',
+            artist: '周深',
+            url: 'http://nf.sycdn.kuwo.cn/21e3a2bedfd28506baee888fc454b06c/6783b464/resource/n2/64/7/3772447385.mp3'
+            // cover:
+            //     'https://s21.ax1x.com/2025/01/09/pEC3g10.png'
         }
     ],
     MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
