@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog-of-zyx.zeabur.app?theme=heo' },
-    { title: '点击进入我hexo主题博客', url: 'https://blog-of-zyx.zeabur.app?theme=hexo' }
+    { title: '欢迎来到我的博客', url: '/?theme=heo' },
+    { title: '点击进入我hexo主题博客', url: '/?theme=hexo' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -39,8 +39,8 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是:',
-    '一个热爱编程的人',
+    '你好！我:',
+    '是一个热爱编程、有开源精神的人',
     '正在学习Python',
     '正在学习C++',
     '正在学习HTML',
